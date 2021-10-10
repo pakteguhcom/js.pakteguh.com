@@ -597,27 +597,5 @@ if (tw_config[_0x298251(429)] != null || tw_config["FBPixel_ID"] != "") {
     fbq(gotoNewOfflinePage(465), gotoNewOfflinePage(503));
   });
 }
-var thx_message = _0x298251(547) + window[_0x298251(497)]["hostname"][_0x298251(368)]() + _0x298251(318);
-if (pageMode != "related") {
-  if (!localStorage[_0x298251(438)]("kr")) {
-    /**
-     * @return {undefined}
-     */
-    window["onload"] = function() {
-      var gotoNewOfflinePage = _0x298251;
-      var _0x54764d = window["location"][gotoNewOfflinePage(469)];
-      $["getJSON"]("https://member.kangrian.net/api/web-cek?prod_id=2&url=" + _0x54764d, function(localStorage) {
-        var getScriptId = gotoNewOfflinePage;
-        console[getScriptId(528)]();
-        if (localStorage[getScriptId(408)] == 200) {
-          localStorage[getScriptId(386)]("kr", 1);
-          console[getScriptId(528)](thx_message);
-        } else {
-        }
-      });
-    };
-  } else {
-    console["log"](thx_message);
-  }
-}
+
 ;
